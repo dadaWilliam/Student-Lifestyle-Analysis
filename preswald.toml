@@ -1,0 +1,21 @@
+[project]
+title = "Student Lifestyle Analysis"
+version = "0.1.0"
+port = 8501
+slug = "student-lifestyle-analysis"  
+entrypoint = "app.py"    
+
+[branding]
+name = "Student Lifestyle Analysis"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#4682B4"
+
+[data.lifestyle_csv]
+type = "csv"
+path = "data/student_lifestyle_dataset.csv"
+
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
